@@ -29,17 +29,13 @@ O Cashback é uma estratégia de fidelização de clientes que potencializa prog
 
 1. Clone o repositório
 
-- `git clone git@github.com:lauropera/hackaton-t22-klever.git`;
+- `git clone git@github.com:jjgouveia/klever-cashback.git`;
 
 2. Entre na pasta do repositório que você acabou de clonar:
 
-- `cd hackaton-t22-klever`
+- `cd klever-cashback`
 
-3. Entre na branch release com o comando
-
-- `git checkout release`
-
-4. Suba o container do Docker com o comando:
+3. Suba o container do Docker com o comando:
 
 - `npm run compose:up`
 
@@ -47,6 +43,6 @@ O Cashback é uma estratégia de fidelização de clientes que potencializa prog
 
 - `npm run compose:down`
 
-5. Abra a aplicação no link
+4. Abra a aplicação no link
 
 - `localhost:3000`
