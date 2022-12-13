@@ -1,0 +1,80 @@
+header,
+#search-container,
+#search-input {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  padding: 1rem 2rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0b0b1e;
+}
+
+#header-klever-logo {
+  width: 70%;
+  min-width: 80px;
+}
+
+#cashback-title {
+  text-align: center;
+  margin-right: 15px;
+}
+
+#header-cash-logo {
+  width: 50px;
+}
+
+#search-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#search-input {
+  background-color: #aa33b5;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  color: #ddd;
+  width: 400px;
+}
+
+#search-input::placeholder {
+  color: #ddd;
+}
+
+.dropdown-explore {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown-explore:hover .dropdown-options {
+  display: block;
+}
+
+.dropdown-options a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+  padding: 20px 40px;
+}
+
+.dropdown-options a:hover {
+  color: #0a0a23;
+  background-color: #ddd;
+  border-radius: 5px;
+}

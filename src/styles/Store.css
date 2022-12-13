@@ -1,0 +1,51 @@
+.store-container {
+  flex-flow: row wrap;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.store-items {
+  font-family: 'montserrat';
+  background-color: #222345;
+  border-radius: 10px;
+  border: transparent solid 1px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.418);
+  color: rgb(255, 253, 253);
+  height: 320px;
+  margin: 10px;
+  width: 300px;
+  transition: 0.4s;
+}
+
+.store-items:hover {
+  border: #f40dce solid 1px;
+  transition: 0.4s;
+}
+
+.store-items > img {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.price {
+  background: #cf0053;
+  background: linear-gradient(to bottom, #ff1d78 29%, #f40dce 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cashback {
+  background: #00cf23;
+  background: linear-gradient(to bottom, #1dff74 29%, #0df418 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buy-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-buy {
+  padding: 0, 0.1rem, 0.3rem;
+}

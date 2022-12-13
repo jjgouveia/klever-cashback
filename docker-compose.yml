@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  frontend:
+    container_name: frontend_klvcb
+    build: ./
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src:/app_klevercashback/src
+    platform: linux/x86_64
+    working_dir: /app_klevercashback
+    healthcheck:
+      test: [ "CMD", "lsof", "-t", "-i:3000" ]
+      timeout: 10s
+      retries: 5
